@@ -16,3 +16,9 @@ Tools in use:
 
 Other info:
   - Sprints are weekly
+
+
+Sprint 1: This sprint was to mainly to produce research and design work for later use.
+  - User stories, UML diagrams, use case diagrams and knowledge acquisitions 
+Sprint 2: This sprint is to being used to produce a minimal viable product.
+  - Get news data, count terms then use the sportify api with the best terms. 
