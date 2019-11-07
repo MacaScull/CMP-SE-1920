@@ -14,6 +14,13 @@ Tools in use:
   - Github for version control and task tracking
   - Discord for communications
 
+Roles:
+  - SCRUM master - Macauley Scullion
+  - Product owner - Ashley Thomas Jubb
+  - Developers - Sam Barker
+               - Ashley Thmoas Jubb
+               - Macauley Scullion
+
 Other info:
   - Sprints are weekly
 
