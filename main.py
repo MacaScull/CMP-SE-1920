@@ -8,5 +8,4 @@ spotify = SpotifyAPI()
 
 findNews.getNews()
 findTerms.tf(findNews.newsData[0])
-#print(findTerms.frequencyData[0][0])
-print(spotify.search(findTerms.frequencyData))
+print(spotify.search(findTerms.frequencyData[0][0]))
