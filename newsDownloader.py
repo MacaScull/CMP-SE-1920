@@ -14,7 +14,7 @@ class news:
               i = 0
               for a in articles:
               #print (articles[i]["title"])
-                     self.newsData.append(articles[i]["title"] + " " + articles[i]["description"])
+                     self.newsData.append(str(articles[i]["title"]) + " " + str(articles[i]["description"]))
               #print (articles[i]["description"])
                      i +=1
 
