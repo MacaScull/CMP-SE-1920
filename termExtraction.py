@@ -24,14 +24,17 @@ class terms:
             if word not in counter:
                 counter[word] = 0
             counter[word] += 1       
-            
+        
+        counter = sorted(counter.items(), key=lambda kv: kv[1], reverse=True)
+
         self.frequencyData = counter
 
-#Below is an example on how to use this class for term frequency
 '''
-string = 'Hello world, my name is macauley macauley macauley'
+#Below is an example on how to use this class for term frequency
+string = 'Hello  world world world world, my name is macauley macauley macauley'
 
 t = terms()
 t.tf(string)
-print(t.frequencyData)
+print(t.frequencyData[0][0])
+# To go through each part of the dictionary change the first [] in the frequencyData i.e. frequencyData[0][0], frequencyData[1][0]
 '''
