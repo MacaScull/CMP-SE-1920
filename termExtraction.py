@@ -9,6 +9,10 @@ class terms:
         self.frequencyData = []
         self.stopWordList = ['a','as','and','are','as','at','be','by','for','from','has','he','in','is','it','its','of','on','that','the','to','was','were','will','with']
 
+    #tfClear will clear the frequencyData of the object
+    def tfClear(self):
+        self.frequencyData = []
+
     #tfSplit will take a string input and remove all punctuation then tokenized it
     def tfSplit(self, t):
         #If more characters like this appear we could replace this code with regex code
@@ -46,7 +50,10 @@ string = 'Hello  world/world/world/world, this is is is a test!'
 
 t = terms()
 t.tf(string)
-print(t.frequencyData[0][0])
+#print(t.frequencyData[0][0])
+print(t.frequencyData)
+t.tfClear()
+print(t.frequencyData)
 # To go through each part of the dictionary change the first [] in the frequencyData i.e. frequencyData[0][0], frequencyData[1][0]
 # To get the full dictionary instead of specific keys print frequencyData
 '''
